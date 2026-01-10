@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M100 180 C 40 160, 20 100, 20 40 L 180 40 C 180 100, 160 160, 100 180 Z" 
+        fill="none" stroke="#1a365d" stroke-width="5" />
+  
+  <!-- Inner Shield Fill -->
+  <path d="M100 175 C 45 155, 25 100, 25 45 L 175 45 C 175 100, 155 155, 100 175 Z" 
+        fill="#f7fafc" opacity="0.5" />
+
+  <!-- Open Book -->
+  <path d="M40 90 Q 70 110, 100 90 Q 130 110, 160 90 L 160 130 Q 130 150, 100 130 Q 70 150, 40 130 Z" 
+        fill="#ffffff" stroke="#1a365d" stroke-width="3" />
+  
+  <!-- Book Pages Lines -->
+  <path d="M100 90 L 100 130" stroke="#1a365d" stroke-width="2" />
+  <path d="M50 100 Q 75 110, 90 100" stroke="#1a365d" stroke-width="1" fill="none" />
+  <path d="M110 100 Q 125 110, 150 100" stroke="#1a365d" stroke-width="1" fill="none" />
+
+  <!-- Stylized Figure / 'M' -->
+  <path d="M70 70 L 100 30 L 130 70" fill="none" stroke="#d69e2e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="100" cy="30" r="8" fill="#d69e2e" />
+
+  <!-- School Name Text -->
+  <text x="100" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a365d" text-anchor="middle">MATKIDS</text>
+</svg>
