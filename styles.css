@@ -178,6 +178,40 @@ tr:nth-child(even) {
     font-weight: 700;
 }
 
+/* Dress Code Grid */
+.dress-code-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.dress-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1a365d;
+}
+
+.dress-card h4 {
+    color: #1a365d;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.dress-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dress-card li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
 /* Payment Section */
 .payment-methods {
     display: flex;
